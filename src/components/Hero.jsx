@@ -21,14 +21,15 @@ export default function Hero() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Building the future <br />
+            Connecting Business Vision <br />
             with <span className="bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text">AI & Technology</span>
           </h1>
 
           <p className="mt-8 text-gray-300 text-lg md:text-xl leading-relaxed max-w-2xl">
-            English Business Administration student focused on artificial intelligence,
-            technology, entrepreneurship and business growth. I aim to build scalable
-            digital products and AI-powered solutions that create real impact.
+I'm an English Business Administration student driven by a passion for artificial intelligence, technology, and innovation. I believe the most impactful ideas emerge where business strategy and technology intersect, and my goal is to build the skills, knowledge, and perspective needed to thrive in both worlds.
+
+With a growing focus on AI, digital products, and technology-driven growth, I'm continuously expanding my technical and business expertise while exploring opportunities to create meaningful solutions, contribute to ambitious projects, and build ventures that make a lasting impact.
+
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
@@ -47,22 +48,22 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="mt-14 grid grid-cols-3 gap-8 max-w-xl">
-            <div>
-              <p className="text-3xl font-bold">10+</p>
-              <p className="text-gray-500 text-sm">Projects</p>
-            </div>
+      <div className="mt-14 grid grid-cols-3 gap-8 max-w-xl">
+  <div>
+    <p className="text-3xl font-bold">Business</p>
+    <p className="text-gray-500 text-sm">Administration</p>
+  </div>
 
-            <div>
-              <p className="text-3xl font-bold">5+</p>
-              <p className="text-gray-500 text-sm">Skills</p>
-            </div>
+  <div>
+    <p className="text-3xl font-bold">AI</p>
+    <p className="text-gray-500 text-sm">Engineering Goal</p>
+  </div>
 
-            <div>
-              <p className="text-3xl font-bold">AI</p>
-              <p className="text-gray-500 text-sm">Focus</p>
-            </div>
-          </div>
+  <div>
+    <p className="text-3xl font-bold">Tech</p>
+    <p className="text-gray-500 text-sm">Entrepreneurship</p>
+  </div>
+</div>
         </div>
 
         <div className="flex justify-center md:justify-end">

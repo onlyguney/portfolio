@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa"
+
 export default function Navbar() {
     return (
       <nav className="fixed top-0 w-full z-50 bg-black/40 backdrop-blur-xl border-b border-white/10">
@@ -19,12 +21,39 @@ export default function Navbar() {
             <a href="#contact" className="hover:text-white transition">Contact</a>
           </div>
   
-          <a
-            href="#contact"
-            className="hidden md:block border border-white/15 px-5 py-2 rounded-xl text-sm hover:bg-white/10 transition"
-          >
-            Contact Me!
-          </a>
+         <div className="hidden md:flex items-center gap-3">
+  <a
+    href="#contact"
+    className="border border-white/15 px-5 py-2 rounded-xl text-sm hover:bg-white/10 transition"
+  >
+    Contact Me
+  </a>
+
+  <a
+    href="/cv.pdf"
+    download
+    className="bg-blue-600 hover:bg-blue-500 px-5 py-2 rounded-xl text-sm font-semibold transition shadow-lg shadow-blue-500/20"
+  >
+    Download CV
+  </a>
+  <a
+  href="https://github.com/onlyguney"
+  target="_blank"
+  rel="noreferrer"
+  className="text-gray-400 hover:text-white transition"
+>
+  <FaGithub size={22} />
+</a>
+
+<a
+  href="https://linkedin.com/in/guneykaraman"
+  target="_blank"
+  rel="noreferrer"
+  className="text-gray-400 hover:text-blue-400 transition"
+>
+  <FaLinkedin size={22} />
+</a>
+</div>
         </div>
       </nav>
     )
