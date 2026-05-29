@@ -37,14 +37,14 @@ With a growing focus on AI, digital products, and technology-driven growth, I'm 
               href="#projects"
               className="bg-blue-600 hover:bg-blue-500 text-white px-7 py-4 rounded-2xl font-semibold transition shadow-lg shadow-blue-500/30"
             >
-              View Projects →
+              Explore My Work →
             </a>
 
             <a
               href="#contact"
               className="border border-white/15 bg-white/5 px-7 py-4 rounded-2xl hover:bg-white/10 transition"
             >
-              Contact Me
+              Let's Connect
             </a>
           </div>
 

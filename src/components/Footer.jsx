@@ -5,12 +5,12 @@ export default function Footer() {
   
           <div>
             <h3 className="text-white text-xl font-semibold">
-              Güney
+              © 2026 Güney Karaman
             </h3>
   
             <p className="mt-2 text-sm">
-              AI • Technology • Entrepreneurship
-            </p>
+Building at the intersection of
+AI, Business & Technology            </p>
           </div>
   
           <div className="flex gap-6 text-sm">

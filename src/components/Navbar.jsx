@@ -5,13 +5,19 @@ export default function Navbar() {
       <nav className="fixed top-0 w-full z-50 bg-black/40 backdrop-blur-xl border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center text-white">
           <a href="#" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center font-bold shadow-lg shadow-blue-500/30">
-              G
-            </div>
-  
-            <span className="text-xl font-semibold">
-              Güney Karaman
-            </span>
+            <div className="w-11 h-11 rounded-full bg-blue-600 flex items-center justify-center font-bold shadow-lg shadow-blue-500/30">
+  GK
+</div>
+
+<div>
+  <span className="block text-xl font-semibold">
+    Güney Karaman
+  </span>
+
+  <span className="block text-xs text-gray-500">
+    AI • Business • Technology
+  </span>
+</div>
           </a>
   
           <div className="hidden md:flex items-center gap-10 text-sm text-gray-300">
